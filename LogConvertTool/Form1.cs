@@ -42,8 +42,6 @@ namespace LogConvertTool
 
         private void button_Convert_Click(object sender, EventArgs e)
         {
-            //log.Info("Convert start:" + DateTime.Now.ToString("mm:ss:fff"));
-
             richTextBox_convertCsv.Clear();
 
             if(comboBox_logType.SelectedItem == null || String.IsNullOrEmpty(comboBox_logType.Text))
